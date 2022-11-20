@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="profile description">
+    <title>😸 Profile | Profile Description</title>
+
+    <script src="https://kit.fontawesome.com/d0ca4a10fa.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,600;0,700;0,800;1,200;1,300;1,600;1,700;1,800&family=Nunito:ital,wght@0,200;0,400;1,200;1,400&display=swap"
+        rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #fde4cf;
+            color: rgb(50, 50, 50);
+            line-height: 1.6;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 800;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: 'Nunito Sans', sans-serif;
+        }
+
+        h1 {
+            color: #FF165D;
+            font-weight: 100;
+            letter-spacing: 5px;
+            font-size: 32px;
+            text-transform: uppercase;
+        }
+
+        h2,
+        h3 {
+            color: #a997c7;
+            font-size: 24px;
+            font-weight: lighter;
+        }
+
+        p {
+            font-family: 'Nunito', sans-serif;
+            font-weight: 300;
+            color: #2a3a3f;
+        }
+
+        a {
+            font-family: 'Nunito', sans-serif;
+            text-decoration: none;
+            color: rgba(238, 63, 63, 0.968);
+            transition: color 0.9s ease;
+        }
+
+        a:hover {
+            color: #cbd41f;
+            font-style: italic;
+        }
+
+        .heading {
+            background: white;
+            border: 2px solid black;
+            margin: 10px;
+        }
+
+        .img-list {
+            border-radius: 50%;
+            width: 50px;
+            box-shadow: 0 5px 15px #2a3a3f;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        /* Custom design with class */
+
+        .container {
+            width: 700px;
+            margin: 40px auto;
+        }
+
+        @media (max-width: 760px) {
+
+            .container {
+                width: 600px;
+            }
+        }
+
+        @media (max-width: 500px) {
+
+            .container {
+                width: 400px;
+            }
+        }
+
+        .card-white {
+            background: #eee5df;
+            margin: 15px 0;
+            padding: 30px;
+            box-shadow: 0px 10px 30px rgba(88, 21, 21, 0.468);
+            border-radius: 4px;
+            text-align: center;
+        }
+
+        .img-circle {
+            border-radius: 50%;
+            width: 150px;
+            box-shadow: 0 5px px #2a3a3f;
+            padding-left: 0px;
+        }
+
+        .btn-pink {
+            background-color: white;
+            padding: 15px 15px;
+            border-radius: 4px;
+            box-shadow: 0px 5px 15px rgba(88, 21, 21, 0.468);
+        }
+
+
+        .list-inline {
+            list-style: none;
+            padding-left: 0px;
+        }
+
+        .list-inline li {
+            display: inline;
+            padding: 10px;
+            font-size: 15px;
+            line-height: 13px;
+        }
+
+        .list-inline i {
+            font-size: 25px;
+            color: rgb(172, 156, 156);
+        }
+
+        .list-inline i:hover {
+            color: black;
+        }
+
+        #introduction p {
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="card-white" id="introduction">
+            <h1><i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 2.0s;"></i> Hello, I am Valeria!
+            </h1>
+            <img src="https://0.academia-photos.com/18637202/17806202/17827779/s200_valeria.panzetta.jpg"
+                alt="Valeria-Panzetta" class="img-circle">
+            <p>I love good food and foreign languages 📚 I am committed to becoming a Front-End Developer 👩💻 </p>
+            <a href="https://uniba-it.academia.edu/ValeriaPanzetta" target="_blank" class="btn-pink">Discover more on
+                Academia</a>
+        </div>
+
+        <div class="card-white">
+            <h2>
+                Good Food <i class="fa-regular fa-face-smile"></i></h2>
+            <p>
+                I am passionate about <em>good food</em> and <em>foreign languages</em>.
+            </p>
+        </div>
+
+        <div class="card-white">
+            <h3>
+                Front-End Development <i class="fa-regular fa-keyboard"></i></i>
+            </h3>
+            <p>
+                I am committed to becoming a <em>Front-End Developer</em>.
+            </p>
+        </div>
+
+        <div class="card-white">
+            <ul class="list-inline">
+                <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8TWqUEI-LLgLVwKkSWdNqE5wFSLHAfs6jpQ&usqp=CAU"
+                        class="img-list">Gatto 1</li>
+                <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8TWqUEI-LLgLVwKkSWdNqE5wFSLHAfs6jpQ&usqp=CAU"
+                        class="img-list">Gatto 2</li>
+                <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8TWqUEI-LLgLVwKkSWdNqE5wFSLHAfs6jpQ&usqp=CAU"
+                        class="img-list">Gatto 3</li>
+                <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8TWqUEI-LLgLVwKkSWdNqE5wFSLHAfs6jpQ&usqp=CAU"
+                        class="img-list">Gatto 4</li>
+            </ul>
+        </div>
+
+        <div class="card-white">
+            <h3>
+                Follow Me
+            </h3>
+            <ul class="list-inline">
+                <li>
+                    <a href="https://it.linkedin.com/in/valeria-panzetta/en">
+                        <i class="fab fa-linkedin-in"></i> Linkedin
+                    </a>
+                </li>
+                <li> <a href="https://uniba-it.academia.edu/ValeriaPanzetta">
+                        <i class="fa-solid fa-graduation-cap"></i> Academia
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</body>
+
+</html>
